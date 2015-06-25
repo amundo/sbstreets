@@ -1,22 +1,23 @@
 @import url(fonts/fonts.css);
 html { 
-  background: linear-gradient(#79ACD9, #A8D9F7); 
-  min-height: 100%;
 }
 
 body { 
-  background: linear-gradient(#79ACD9, #A8D9F7) ;
-  min-height: 100vh;
+  text-align:center;
 }
 
 * { 
   font-family: 'Santa Barbara Streets';
 }
 
+h1 { 
+  font-size: 5rem;;
+}
+
 h1#street {
   display:inline-flex;
   font-weight: normal;
-  font-size: 6em;
+  font-size: 5rem;
   background: #3a1c11;
   color:#dee3e6;
   border-top: 3px solid #dee3e6;
@@ -32,6 +33,7 @@ span#address {
   margin-left: 1em;
   flex-direction:column;
   font-size: 50%;
+  font-size: 2rem;
   text-align:right;
 }
 
@@ -46,5 +48,6 @@ span#street {
   border-top: 3px solid #dee3e6;
   border-bottom: 3px solid #dee3e6;
   box-shadow: -2px 2px 2px rgba(0,0,0,.2), -2px -2px 2px rgba(0,0,0,.2), 2px -2px 2px rgba(0,0,0,.2), 2px 2px 2px rgba(0,0,0,.2);
+  font-size: 2rem;
   padding: 0 2%;
 }  
