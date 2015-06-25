@@ -1,6 +1,12 @@
 @import url(fonts/fonts.css);
 html { 
-  background: linear-gradient(#79ACD9, #A8D9F7) 
+  background: linear-gradient(#79ACD9, #A8D9F7); 
+  min-height: 100%;
+}
+
+body { 
+  background: linear-gradient(#79ACD9, #A8D9F7) ;
+  min-height: 100vh;
 }
 
 * { 
@@ -10,6 +16,7 @@ html {
 h1#street {
   display:inline-flex;
   font-weight: normal;
+  font-size: 6em;
   background: #3a1c11;
   color:#dee3e6;
   border-top: 3px solid #dee3e6;
